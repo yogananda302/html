@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <style>
+             .parent{
+                 width:100%;
+                 height:100%;
+
+                 display:flex;
+                 justify-content: flex-end;
+                 align-items: flex-start;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 justify-content: flex-start;
+                 align-items: flex-start;
+                 background-color: aliceblue;
+             }
+             .body{
+                 margin: 5px;
+                 padding: 0px;
+             }
+             
+             .child{
+                 width: 98%;
+                 height: 10%;
+                 text-align: right;      
+             }
+             .child a{
+                 color:black;
+                 text-decoration: none;
+                 padding:0px 10px 0px 10px;
+             }
+             .child2{
+                 width: 97%;
+                 height: 80%;
+                 text-align: center;
+                 margin: 40px;
+                 padding: 10px 10px 10px 10px;
+             }
+             .signin{
+                background-color: blue;
+                border: none;
+                color:white;
+                padding:5px 5px 5px 5px;
+                border-radius: 5px;
+
+             }
+             .search{
+                 width: 20%;
+                 padding: 5px;
+                 border-radius: 20px;
+                 margin: 10px;
+             }
+             .serch{
+                width: 15%;
+                border-radius: 15px;
+                margin: 10px;
+             }
+             .lucky{
+                width: 15%;
+                 border-radius: 15px;
+             }
+             
+             .child3{
+                 width:100%;
+                 padding:0px 0px 0px 10px;
+                 background-color:gray;
+                 border-bottom: 1px solid #ccc;
+             }   
+             .child4{
+                 width: 100%;
+                 height: 6%;
+                 margin: 0px;
+                 padding: 10px 10px 10px 10px;
+                 background-color: gray;
+             }
+            .child4 a{
+                text-decoration: none;
+                 color:black;
+            }
+             .child3 a{
+                 text-decoration: none;
+                 color:black;
+             }
+             .sm-child-lt{
+                 width:49%;
+                 float: left;
+             }
+             .sm-child-rt{
+                 width:49%;
+                 float: right;
+                 text-align: right;
+                 margin-right: 15px;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <a href="#" >Gmail</a>
+                <a href="#">Images</a>
+                <input type="button" value="Sign In" class="signin">
+            </div>
+            <div class="child2">
+                <img src="google.png">
+                <br>
+                <input type="text"class="search">
+                <br>
+                <input type="button" value="Google Search" class=" serch">
+                <input type="button" value="I'm Feeling Lucky" class=" lucky">
+            </div>
+            <div class="child3">
+                <a href="#">India</a>
+            </div>
+            <div class="child4">
+                <div class="sm-child-lt">
+                    <a href="#">About</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">How Search works</a>
+                </div>
+                <div class="sm-child-rt">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>   
+                </div>
+            </div>
+         </div>       
+    </body>
+</html>
